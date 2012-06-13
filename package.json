@@ -1,0 +1,23 @@
+{
+  "name": "jademodule-brunch",
+  "version": "0.0.1",
+  "description": "Adds Jade to brunch as a module.",
+  "author": "Ryota SUZUKI (suzuki@galileoscope.com)",
+  "homepage": "https://github.com/brunch/jademodule-brunch",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brunch/jademodule-brunch.git"
+  },
+  "main": "./lib/index",
+  "scripts": {
+  },
+  "engines": {
+    "node": "~0.6.10"
+  },
+  "dependencies": {
+    "coffee-script": "1.2.0",
+    "jade": "0.19.0"
+  },
+  "devDependencies": {
+  }
+}
