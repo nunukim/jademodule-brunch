@@ -18,5 +18,5 @@ then,
     // view.js
     var hoge = require('./hoge');
     
-    $('body').append(hoge.text('Click me!'));
+    $('body').append(hoge.text('mytext', 'Edit me!'));
     $('body').append(hoge.btn('Click me!'));
