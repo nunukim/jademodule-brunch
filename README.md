@@ -6,17 +6,17 @@
 
 Build a jade module,
 
-  // hoge.jdlib
-  - exports.btn = function(label)
-    button= name
+    // hoge.jdlib
+    - exports.btn = function(label)
+      button= name
 
-  - exports.text = function(name, value)
-    input(type='text', name=name, value=value)
+    - exports.text = function(name, value)
+      input(type='text', name=name, value=value)
 
 then,
 
-  // view.js
-  var hoge = require('./hoge');
-  
-  $('body').append(hoge.text('Click me!'));
-  $('body').append(hoge.btn('Click me!'));
+    // view.js
+    var hoge = require('./hoge');
+    
+    $('body').append(hoge.text('Click me!'));
+    $('body').append(hoge.btn('Click me!'));
