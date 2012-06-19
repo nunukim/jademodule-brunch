@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Adds Jade to brunch as a module.",
   "author": "Ryota SUZUKI (suzuki@galileoscope.com)",
-  "homepage": "https://github.com/brunch/jademodule-brunch",
+  "homepage": "https://github.com/nunukim/jademodule-brunch",
   "repository": {
     "type": "git",
     "url": "git@github.com:brunch/jademodule-brunch.git"
