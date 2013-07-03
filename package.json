@@ -1,6 +1,6 @@
 {
   "name": "jademodule-brunch",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Adds Jade to brunch as a module.",
   "author": "Ryota SUZUKI (suzuki@galileoscope.com)",
   "homepage": "https://github.com/nunukim/jademodule-brunch",
