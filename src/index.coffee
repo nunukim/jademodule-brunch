@@ -11,9 +11,10 @@ modulize = (->
   throw new Error("something wrong!!!") unless isFunc(getBuf)
   getBuf().length = 0
   wrap = (func)-> ->
-    bufIdx = getBuf().length
+    buf = getBuf()
+    bufIdx = buf.length
     func.apply(this, arguments)
-    getBuf().splice(bufIdx).join('')
+    buf.splice(bufIdx, buf.length - bufIdx).join('')
   for key, val of mdl.exports
     module.exports[key] = if isFunc(val) then wrap(val) else val
 ).toString()
